@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Página Principal | YouTube</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="play-video.html">
+</head>
+<body>
+	<nav class="flex-div">
+		<div class="nav-left">
+			<BUtton id="button-menu" class="button-menu"><i class="fa-solid fa-bars"></i></BUtton>
+			<a href="#" class="logo"> <i class="fa-brands fa-youtube"></i> <span>YouTube</span></a>
+		</div>
+		<div class="nav-middle flex-div">
+			<div class="search-box">
+				<input type="text" name="" id="" placeholder="Search">
+			</div>
+			<button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+			
+		</div>
+		<div class="nav-right flex-div">
+			<button><i class="fa-solid fa-video"></i></button>
+			<button><i class="fa-solid fa-bell"></i></button>
+			<img src="img/avatar.jpg" alt="avatar" class="user-avatar">
+		</div>
+	</nav>
+	<!–------------------------------sidebar-------------------------------------------------------------- –>
+	<div class="sidebar">
+		<div class="shortcut-links">
+			<a href="#" class="active"><i class="fas fa-home"></i><p>Home</p></a>
+			<a href="#"><i class="fas fa-fire"></i><p>Trends</p></a>
+			<a href="#"><i class="fas fa-star"></i><p>Subscription</p></a>
+			<a href="#"><i class="fa-solid fa-bookmark"></i><p>Library</p></a>
+			<a href="#"><i class="fa-regular fa-eye"></i><p>History</p></a>
+			<a href="#"><i class="fa-brands fa-google-play"></i><p>Player</p></a>
+			<a href="#"><i class="fa-solid fa-angles-down"></i><p>Show More</p></a>
+			<hr>
+		</div>
+		<div class="subscribed-list">
+		<h3>SUBSCRIBED</h3>
+		<a href="#"><img src="./img/Jack.png" alt="persona"><p>Jack Rodríguez</p></a>
+		<a href="#"><img src="./img/cameron.png" alt="persona"><p>Cameron Díaz</p></a>
+		<a href="#"><img src="./img/tom.png" alt="persona"><p>Tom Hardy</p></a>
+		<a href="#"><img src="./img/simon.png" alt="persona"><p>Simón Baker</p></a>
+		<a href="#"><img src="./img/megan.png" alt="persona"><p>Megan Ryan</p></a>
+		</div>
+	</div>
+	<!–------------------------------main-------------------------------------------------------------- –>
+	<div class="container">
+		<div class="banner">
+			<img src="img/banner.png">
+		</div>
+		<div class="list-container">
+			<div class="vid-list">
+				<a href="play-video.html"><img src="img/thumbnail1.png" class="thumbnail"></a> 
+				<div class="flex-div">
+					<img src="img/Jack.png" >
+					<div class="vid-info">
+						<a href="play-video.html">Music Relaxing</a>
+						<p>Relaxing Tutorial</p>
+						<p>15k views &bull; 2 days</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-list">
+				<img src="img/thumbnail2.png" class="thumbnail">
+				<div class="flex-div">
+					<img src="img/gerard.png" >
+					<div class="vid-info">
+						<a href="#">Life American</a>
+						<p>American Tutorial</p>
+						<p>15k views &bull; 15 days</p>
+					</div>
+				</div>
+			</div>
+				<div class="vid-list">
+				<img src="img/thumbnail3.png" class="thumbnail">
+				<div class="flex-div">
+					<img src="img/cameron.png" >
+					<div class="vid-info">
+						<a href="#">Shopping</a>
+						<p>Shopping Tutorial</p>
+						<p>15k views &bull; 35 days</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-list">
+				<img src="img/thumbnail4.png" class="thumbnail">
+				<div class="flex-div">
+					<img src="img/simon.png" >
+					<div class="vid-info">
+						<a href="#">Paradise</a>
+						<p>Relaxing Tutorial</p>
+						<p>15k views &bull; 11 days</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-list">
+				<img src="img/thumbnail5.png" class="thumbnail">
+				<div class="flex-div">
+					<img src="img/megan.png" >
+					<div class="vid-info">
+						<a href="#">Friends</a>
+						<p>How to make Friends</p>
+						<p>15k views &bull; 50 days</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-list">
+				<img src="img/thumbnail6.png" class="thumbnail">
+				<div class="flex-div">
+					<img src="img/Jack.png" >
+					<div class="vid-info">
+						<a href="#">Mustang</a>
+						<p>Cars Tutorial</p>
+						<p>15k views &bull; 15 days</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-list">
+				<img src="img/thumbnail7.png" class="thumbnail">
+				<div class="flex-div">
+					<img src="img/simon.png" >
+					<div class="vid-info">
+						<a href="#">Private School</a>
+						<p>Learning</p>
+						<p>15k views &bull; 100 days</p>
+					</div>
+				</div>
+			</div>
+			<div class="vid-list">
+				<img src="img/thumbnail8.png" class="thumbnail">
+				<div class="flex-div">
+					<img src="img/tom.png" >
+					<div class="vid-info">
+						<a href="#">Ferrari</a>
+						<p>TCar's Tutorial </p>
+						<p>15k views &bull; 45 days</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://kit.fontawesome.com/5e80d78640.js" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+</body>
+</html>
